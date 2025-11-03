@@ -1,0 +1,395 @@
+[
+  {
+    "type": "KEYWORD",
+    "value": "let",
+    "line": 1,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 1,
+    "column": 4
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "name",
+    "line": 1,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 1,
+    "column": 9
+  },
+  {
+    "type": "COLON",
+    "value": ":",
+    "line": 1,
+    "column": 10
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 1,
+    "column": 11
+  },
+  {
+    "type": "DATATYPE",
+    "value": "string",
+    "line": 1,
+    "column": 12
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\n",
+    "line": 1,
+    "column": 18
+  },
+  {
+    "type": "KEYWORD",
+    "value": "let",
+    "line": 2,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 2,
+    "column": 4
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "age",
+    "line": 2,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 2,
+    "column": 8
+  },
+  {
+    "type": "COLON",
+    "value": ":",
+    "line": 2,
+    "column": 9
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 2,
+    "column": 10
+  },
+  {
+    "type": "DATATYPE",
+    "value": "int",
+    "line": 2,
+    "column": 11
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\n",
+    "line": 2,
+    "column": 14
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\n",
+    "line": 3,
+    "column": 1
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "name",
+    "line": 4,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 4,
+    "column": 5
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 4,
+    "column": 6
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 4,
+    "column": 7
+  },
+  {
+    "type": "STRING",
+    "value": "Danielo",
+    "raw": "\"Danielo\"",
+    "line": 4,
+    "column": 8
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 4,
+    "column": 17
+  },
+  {
+    "type": "COMMENT",
+    "value": "//this is a comment",
+    "line": 4,
+    "column": 18
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\n",
+    "line": 4,
+    "column": 37
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "age",
+    "line": 5,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 5,
+    "column": 4
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 5,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 5,
+    "column": 6
+  },
+  {
+    "type": "NUMBER",
+    "value": "21",
+    "line": 5,
+    "column": 7
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\n",
+    "line": 5,
+    "column": 9
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\n",
+    "line": 6,
+    "column": 1
+  },
+  {
+    "type": "KEYWORD",
+    "value": "if",
+    "line": 7,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 7,
+    "column": 3
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "age",
+    "line": 7,
+    "column": 4
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 7,
+    "column": 7
+  },
+  {
+    "type": "REL_OP",
+    "value": ">",
+    "line": 7,
+    "column": 8
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 7,
+    "column": 9
+  },
+  {
+    "type": "NUMBER",
+    "value": "18",
+    "line": 7,
+    "column": 10
+  },
+  {
+    "type": "COLON",
+    "value": ":",
+    "line": 7,
+    "column": 12
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\n",
+    "line": 7,
+    "column": 13
+  },
+  {
+    "type": "WHITESPACE",
+    "value": "    ",
+    "line": 8,
+    "column": 1
+  },
+  {
+    "type": "KEYWORD",
+    "value": "show",
+    "line": 8,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 8,
+    "column": 9
+  },
+  {
+    "type": "STRING",
+    "value": "You are an adult",
+    "raw": "\"You are an adult\"",
+    "line": 8,
+    "column": 10
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\n",
+    "line": 8,
+    "column": 28
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "else",
+    "line": 9,
+    "column": 1
+  },
+  {
+    "type": "COLON",
+    "value": ":",
+    "line": 9,
+    "column": 5
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\n",
+    "line": 9,
+    "column": 6
+  },
+  {
+    "type": "WHITESPACE",
+    "value": "    ",
+    "line": 10,
+    "column": 1
+  },
+  {
+    "type": "KEYWORD",
+    "value": "show",
+    "line": 10,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 10,
+    "column": 9
+  },
+  {
+    "type": "STRING",
+    "value": "You are a minor",
+    "raw": "\"You are a minor\"",
+    "line": 10,
+    "column": 10
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\n",
+    "line": 10,
+    "column": 27
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 11,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 11,
+    "column": 4
+  },
+  {
+    "type": "KEYWORD",
+    "value": "if",
+    "line": 11,
+    "column": 5
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\n",
+    "line": 11,
+    "column": 7
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\n",
+    "line": 12,
+    "column": 1
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "x",
+    "line": 13,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 13,
+    "column": 2
+  },
+  {
+    "type": "LEXICAL_ERROR",
+    "value": "@",
+    "line": 13,
+    "column": 3
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 13,
+    "column": 4
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "y",
+    "line": 13,
+    "column": 5
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\n",
+    "line": 13,
+    "column": 6
+  }
+]

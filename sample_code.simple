@@ -1,0 +1,13 @@
+let name : string
+let age : int
+
+name = "Danielo" //this is a comment
+age = 21
+
+if age > 18:
+    show "You are an adult"
+else:
+    show "You are a minor"
+end if
+
+x @ y
