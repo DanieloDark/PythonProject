@@ -1,0 +1,254 @@
+=== SIMPLE LEXICAL ANALYZER OUTPUT ===
+
+------------- SYMBOL TABLE -------------
+ Line |   Col | Token           | Lexeme
+-------------------------------------------------------
+    1 |     1 | COMMENT         | // Simple if
+    2 |     1 | KEYWORD         | if
+    2 |     4 | IDENTIFIER      | temperature
+    2 |    16 | REL_OP          | >
+    2 |    18 | NUMBER          | 30
+    2 |    20 | COLON           | :
+    3 |     5 | KEYWORD         | show
+    3 |    10 | STRING          | It's a hot day.
+    4 |     1 | KEYWORD         | end
+    4 |     5 | KEYWORD         | if
+    6 |     1 | COMMENT         | // If-else
+    7 |     1 | KEYWORD         | if
+    7 |     4 | IDENTIFIER      | score
+    7 |    10 | REL_OP          | >=
+    7 |    13 | NUMBER          | 50
+    7 |    15 | COLON           | :
+    8 |     5 | KEYWORD         | show
+    8 |    10 | STRING          | You passed!
+    9 |     1 | IDENTIFIER      | else
+    9 |     5 | COLON           | :
+   10 |     5 | KEYWORD         | show
+   10 |    10 | STRING          | Please try again.
+   11 |     1 | KEYWORD         | end
+   11 |     5 | KEYWORD         | if
+   13 |     1 | COMMENT         | // Nested if-else-if
+   14 |     1 | KEYWORD         | if
+   14 |     4 | IDENTIFIER      | grade
+   14 |    10 | ASSIGN_OP       | =
+   14 |    11 | ASSIGN_OP       | =
+   14 |    13 | STRING          | A
+   14 |    16 | COLON           | :
+   15 |     5 | KEYWORD         | show
+   15 |    10 | STRING          | Excellent!
+   16 |     1 | IDENTIFIER      | else
+   16 |     6 | KEYWORD         | if
+   16 |     9 | IDENTIFIER      | grade
+   16 |    15 | ASSIGN_OP       | =
+   16 |    16 | ASSIGN_OP       | =
+   16 |    18 | STRING          | B
+   16 |    21 | COLON           | :
+   17 |     5 | KEYWORD         | show
+   17 |    10 | STRING          | Good job!
+   18 |     1 | IDENTIFIER      | else
+   18 |     6 | KEYWORD         | if
+   18 |     9 | IDENTIFIER      | grade
+   18 |    15 | ASSIGN_OP       | =
+   18 |    16 | ASSIGN_OP       | =
+   18 |    18 | STRING          | C
+   18 |    21 | COLON           | :
+   19 |     5 | KEYWORD         | show
+   19 |    10 | STRING          | Well done.
+   20 |     1 | IDENTIFIER      | else
+   20 |     5 | COLON           | :
+   21 |     5 | KEYWORD         | show
+   21 |    10 | STRING          | Needs improvement.
+   22 |     1 | KEYWORD         | end
+   22 |     5 | KEYWORD         | if
+   22 |     7 | LEXICAL_ERROR   | ;
+   25 |     1 | COMMENT         | /*For KeyWords*/
+   26 |     1 | DATATYPE        | int
+   26 |     5 | IDENTIFIER      | counter
+   26 |    13 | ASSIGN_OP       | =
+   26 |    15 | NUMBER          | 0
+   27 |     1 | DATATYPE        | float
+   27 |     7 | IDENTIFIER      | price
+   27 |    13 | ASSIGN_OP       | =
+   27 |    15 | NUMBER          | 12.5
+   28 |     1 | DATATYPE        | char
+   28 |     6 | IDENTIFIER      | letter
+   28 |    13 | ASSIGN_OP       | =
+   28 |    15 | STRING          | A
+   29 |     1 | DATATYPE        | string
+   29 |     8 | IDENTIFIER      | name
+   29 |    13 | ASSIGN_OP       | =
+   29 |    15 | STRING          | SIMPLE
+   30 |     1 | DATATYPE        | text
+   30 |     6 | IDENTIFIER      | message
+   30 |    14 | ASSIGN_OP       | =
+   30 |    16 | STRING          | HelloWorld123!
+   31 |     1 | DATATYPE        | secure
+   31 |     8 | IDENTIFIER      | password
+   31 |    17 | ASSIGN_OP       | =
+   31 |    19 | STRING          | admin123
+   32 |     1 | DATATYPE        | bool
+   32 |     6 | IDENTIFIER      | isActive
+   32 |    15 | ASSIGN_OP       | =
+   32 |    17 | IDENTIFIER      | true
+   33 |     1 | DATATYPE        | time
+   33 |     6 | IDENTIFIER      | currentTime
+   33 |    18 | ASSIGN_OP       | =
+   33 |    20 | STRING          | 12:00:00
+   34 |     1 | DATATYPE        | date
+   34 |     6 | IDENTIFIER      | currentDate
+   34 |    18 | ASSIGN_OP       | =
+   34 |    20 | STRING          | 2025-11-04
+   35 |     1 | DATATYPE        | timestamp
+   35 |    11 | IDENTIFIER      | logTime
+   35 |    19 | ASSIGN_OP       | =
+   35 |    21 | STRING          | 2025-11-04 12:00:00
+   36 |     1 | DATATYPE        | array
+   36 |     7 | IDENTIFIER      | numbers
+   36 |    15 | ASSIGN_OP       | =
+   36 |    17 | LBRACKET        | [
+   36 |    18 | NUMBER          | 1
+   36 |    19 | COMMA           | ,
+   36 |    21 | NUMBER          | 2
+   36 |    22 | COMMA           | ,
+   36 |    24 | NUMBER          | 3
+   36 |    25 | COMMA           | ,
+   36 |    27 | NUMBER          | 4
+   36 |    28 | COMMA           | ,
+   36 |    30 | NUMBER          | 5
+   36 |    31 | RBRACKET        | ]
+   37 |     1 | DATATYPE        | collection
+   37 |    12 | IDENTIFIER      | words
+   37 |    18 | ASSIGN_OP       | =
+   37 |    20 | LBRACKET        | [
+   37 |    21 | STRING          | apple
+   37 |    28 | COMMA           | ,
+   37 |    30 | STRING          | banana
+   37 |    38 | COMMA           | ,
+   37 |    40 | STRING          | cherry
+   37 |    48 | RBRACKET        | ]
+   39 |     1 | KEYWORD         | global
+   39 |     8 | IDENTIFIER      | totalCount
+   39 |    19 | ASSIGN_OP       | =
+   39 |    21 | NUMBER          | 100
+   40 |     1 | KEYWORD         | local
+   40 |     7 | IDENTIFIER      | tempValue
+   40 |    17 | ASSIGN_OP       | =
+   40 |    19 | NUMBER          | 10
+   42 |     1 | KEYWORD         | let
+   42 |     5 | IDENTIFIER      | variableA
+   42 |    15 | ASSIGN_OP       | =
+   42 |    17 | NUMBER          | 5
+   43 |     1 | KEYWORD         | store
+   43 |     7 | IDENTIFIER      | constantB
+   43 |    17 | ASSIGN_OP       | =
+   43 |    19 | NUMBER          | 10
+   45 |     1 | KEYWORD         | get
+   45 |     5 | IDENTIFIER      | userInput
+   46 |     1 | KEYWORD         | show
+   46 |     6 | STRING          | You entered: 
+   46 |    22 | ARITH_OP        | +
+   46 |    24 | IDENTIFIER      | userInput
+   48 |     1 | KEYWORD         | if
+   48 |     4 | IDENTIFIER      | isActive
+   48 |    13 | ASSIGN_OP       | =
+   48 |    14 | ASSIGN_OP       | =
+   48 |    16 | IDENTIFIER      | true
+   49 |     5 | KEYWORD         | show
+   49 |    10 | STRING          | System is active.
+   50 |     1 | IDENTIFIER      | else
+   51 |     5 | KEYWORD         | show
+   51 |    10 | STRING          | System is inactive.
+   52 |     1 | KEYWORD         | end
+   54 |     1 | KEYWORD         | do
+   55 |     5 | IDENTIFIER      | counter
+   55 |    13 | ASSIGN_OP       | +=
+   55 |    16 | NUMBER          | 1
+   56 |     5 | KEYWORD         | if
+   56 |     8 | IDENTIFIER      | counter
+   56 |    16 | ASSIGN_OP       | =
+   56 |    17 | ASSIGN_OP       | =
+   56 |    19 | NUMBER          | 3
+   57 |     9 | KEYWORD         | next
+   58 |     5 | KEYWORD         | end
+   59 |     5 | KEYWORD         | show
+   59 |    10 | STRING          | Counter: 
+   59 |    22 | ARITH_OP        | +
+   59 |    24 | IDENTIFIER      | counter
+   60 |     1 | KEYWORD         | end
+   62 |     1 | NOISE           | to
+   62 |     4 | KEYWORD         | do
+   62 |     7 | IDENTIFIER      | computeTotal
+   62 |    19 | LPAREN          | (
+   62 |    20 | IDENTIFIER      | a
+   62 |    21 | COMMA           | ,
+   62 |    23 | IDENTIFIER      | b
+   62 |    24 | RPAREN          | )
+   63 |     5 | KEYWORD         | return
+   63 |    12 | IDENTIFIER      | a
+   63 |    14 | ARITH_OP        | +
+   63 |    16 | IDENTIFIER      | b
+   64 |     1 | KEYWORD         | end
+   66 |     1 | KEYWORD         | try
+   67 |     5 | KEYWORD         | show
+   67 |    10 | STRING          | Attempting risky operation...
+   68 |     5 | IDENTIFIER      | result
+   68 |    12 | ASSIGN_OP       | =
+   68 |    14 | NUMBER          | 10
+   68 |    17 | ARITH_OP        | /
+   68 |    19 | NUMBER          | 0
+   69 |     1 | KEYWORD         | handle
+   70 |     5 | KEYWORD         | show
+   70 |    10 | STRING          | Error handled successfully.
+   71 |     1 | KEYWORD         | end
+   73 |     1 | KEYWORD         | show
+   73 |     6 | STRING          | Program finished.
+   76 |     1 | DATATYPE        | int
+   76 |     5 | IDENTIFIER      | a
+   76 |     7 | ASSIGN_OP       | =
+   76 |     9 | NUMBER          | 10
+   77 |     1 | DATATYPE        | float
+   77 |     7 | IDENTIFIER      | b
+   77 |     9 | ASSIGN_OP       | =
+   77 |    11 | NUMBER          | 20.5
+   79 |     1 | NOISE           | to
+   79 |     4 | IDENTIFIER      | add
+   79 |     8 | NOISE           | please
+   79 |    15 | KEYWORD         | do
+   80 |     5 | IDENTIFIER      | c
+   80 |     7 | ASSIGN_OP       | =
+   80 |     9 | IDENTIFIER      | a
+   80 |    11 | ARITH_OP        | +
+   80 |    13 | IDENTIFIER      | b
+   81 |     1 | NOISE           | then
+   82 |     5 | IDENTIFIER      | print
+   82 |    10 | LPAREN          | (
+   82 |    11 | IDENTIFIER      | c
+   82 |    12 | RPAREN          | )
+   83 |     1 | KEYWORD         | end
+
+--- Token Summary ---
+COMMENT     : 4
+NEWLINE     : 84
+KEYWORD     : 45
+WHITESPACE  : 144
+IDENTIFIER  : 48
+REL_OP      : 2
+NUMBER      : 19
+COLON       : 7
+STRING      : 27
+ASSIGN_OP   : 31
+LEXICAL_ERROR: 1
+DATATYPE    : 14
+LBRACKET    : 2
+COMMA       : 7
+RBRACKET    : 2
+ARITH_OP    : 5
+NOISE       : 4
+LPAREN      : 2
+RPAREN      : 2
+
+Total tokens (including whitespace/newlines): 450
+Total tokens (excluding whitespace/newlines): 222
+
+Errors (1):
+  - Invalid token ';' at line 22, column 7

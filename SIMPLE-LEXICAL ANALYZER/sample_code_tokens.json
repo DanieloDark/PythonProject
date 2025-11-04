@@ -1,196 +1,141 @@
 [
   {
-    "type": "KEYWORD",
-    "value": "let",
+    "type": "COMMENT",
+    "value": "// Simple if",
     "line": 1,
+    "column": 1
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 1,
+    "column": 13
+  },
+  {
+    "type": "KEYWORD",
+    "value": "if",
+    "line": 2,
     "column": 1
   },
   {
     "type": "WHITESPACE",
     "value": " ",
-    "line": 1,
-    "column": 4
+    "line": 2,
+    "column": 3
   },
   {
     "type": "IDENTIFIER",
-    "value": "name",
-    "line": 1,
-    "column": 5
+    "value": "temperature",
+    "line": 2,
+    "column": 4
   },
   {
     "type": "WHITESPACE",
     "value": " ",
-    "line": 1,
-    "column": 9
+    "line": 2,
+    "column": 15
   },
   {
-    "type": "COLON",
-    "value": ":",
-    "line": 1,
-    "column": 10
+    "type": "REL_OP",
+    "value": ">",
+    "line": 2,
+    "column": 16
   },
   {
     "type": "WHITESPACE",
     "value": " ",
-    "line": 1,
-    "column": 11
+    "line": 2,
+    "column": 17
   },
   {
-    "type": "DATATYPE",
-    "value": "string",
-    "line": 1,
-    "column": 12
-  },
-  {
-    "type": "NEWLINE",
-    "value": "\n",
-    "line": 1,
+    "type": "NUMBER",
+    "value": "30",
+    "line": 2,
     "column": 18
   },
   {
-    "type": "KEYWORD",
-    "value": "let",
-    "line": 2,
-    "column": 1
-  },
-  {
-    "type": "WHITESPACE",
-    "value": " ",
-    "line": 2,
-    "column": 4
-  },
-  {
-    "type": "IDENTIFIER",
-    "value": "age",
-    "line": 2,
-    "column": 5
-  },
-  {
-    "type": "WHITESPACE",
-    "value": " ",
-    "line": 2,
-    "column": 8
-  },
-  {
     "type": "COLON",
     "value": ":",
     "line": 2,
-    "column": 9
+    "column": 20
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 2,
+    "column": 21
   },
   {
     "type": "WHITESPACE",
-    "value": " ",
-    "line": 2,
-    "column": 10
-  },
-  {
-    "type": "DATATYPE",
-    "value": "int",
-    "line": 2,
-    "column": 11
-  },
-  {
-    "type": "NEWLINE",
-    "value": "\n",
-    "line": 2,
-    "column": 14
-  },
-  {
-    "type": "NEWLINE",
-    "value": "\n",
+    "value": "    ",
     "line": 3,
     "column": 1
   },
   {
-    "type": "IDENTIFIER",
-    "value": "name",
-    "line": 4,
-    "column": 1
-  },
-  {
-    "type": "WHITESPACE",
-    "value": " ",
-    "line": 4,
-    "column": 5
-  },
-  {
-    "type": "ASSIGN_OP",
-    "value": "=",
-    "line": 4,
-    "column": 6
-  },
-  {
-    "type": "WHITESPACE",
-    "value": " ",
-    "line": 4,
-    "column": 7
-  },
-  {
-    "type": "STRING",
-    "value": "Danielo",
-    "raw": "\"Danielo\"",
-    "line": 4,
-    "column": 8
-  },
-  {
-    "type": "WHITESPACE",
-    "value": " ",
-    "line": 4,
-    "column": 17
-  },
-  {
-    "type": "COMMENT",
-    "value": "//this is a comment",
-    "line": 4,
-    "column": 18
-  },
-  {
-    "type": "NEWLINE",
-    "value": "\n",
-    "line": 4,
-    "column": 37
-  },
-  {
-    "type": "IDENTIFIER",
-    "value": "age",
-    "line": 5,
-    "column": 1
-  },
-  {
-    "type": "WHITESPACE",
-    "value": " ",
-    "line": 5,
-    "column": 4
-  },
-  {
-    "type": "ASSIGN_OP",
-    "value": "=",
-    "line": 5,
+    "type": "KEYWORD",
+    "value": "show",
+    "line": 3,
     "column": 5
   },
   {
     "type": "WHITESPACE",
     "value": " ",
-    "line": 5,
-    "column": 6
-  },
-  {
-    "type": "NUMBER",
-    "value": "21",
-    "line": 5,
-    "column": 7
-  },
-  {
-    "type": "NEWLINE",
-    "value": "\n",
-    "line": 5,
+    "line": 3,
     "column": 9
   },
   {
+    "type": "STRING",
+    "value": "It's a hot day.",
+    "line": 3,
+    "column": 10
+  },
+  {
     "type": "NEWLINE",
-    "value": "\n",
+    "value": "\\n",
+    "line": 3,
+    "column": 27
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 4,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 4,
+    "column": 4
+  },
+  {
+    "type": "KEYWORD",
+    "value": "if",
+    "line": 4,
+    "column": 5
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 4,
+    "column": 7
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 5,
+    "column": 1
+  },
+  {
+    "type": "COMMENT",
+    "value": "// If-else",
     "line": 6,
     "column": 1
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 6,
+    "column": 11
   },
   {
     "type": "KEYWORD",
@@ -206,21 +151,9 @@
   },
   {
     "type": "IDENTIFIER",
-    "value": "age",
+    "value": "score",
     "line": 7,
     "column": 4
-  },
-  {
-    "type": "WHITESPACE",
-    "value": " ",
-    "line": 7,
-    "column": 7
-  },
-  {
-    "type": "REL_OP",
-    "value": ">",
-    "line": 7,
-    "column": 8
   },
   {
     "type": "WHITESPACE",
@@ -229,22 +162,34 @@
     "column": 9
   },
   {
-    "type": "NUMBER",
-    "value": "18",
+    "type": "REL_OP",
+    "value": ">=",
     "line": 7,
     "column": 10
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 7,
+    "column": 12
+  },
+  {
+    "type": "NUMBER",
+    "value": "50",
+    "line": 7,
+    "column": 13
   },
   {
     "type": "COLON",
     "value": ":",
     "line": 7,
-    "column": 12
+    "column": 15
   },
   {
     "type": "NEWLINE",
-    "value": "\n",
+    "value": "\\n",
     "line": 7,
-    "column": 13
+    "column": 16
   },
   {
     "type": "WHITESPACE",
@@ -266,16 +211,15 @@
   },
   {
     "type": "STRING",
-    "value": "You are an adult",
-    "raw": "\"You are an adult\"",
+    "value": "You passed!",
     "line": 8,
     "column": 10
   },
   {
     "type": "NEWLINE",
-    "value": "\n",
+    "value": "\\n",
     "line": 8,
-    "column": 28
+    "column": 23
   },
   {
     "type": "IDENTIFIER",
@@ -291,7 +235,7 @@
   },
   {
     "type": "NEWLINE",
-    "value": "\n",
+    "value": "\\n",
     "line": 9,
     "column": 6
   },
@@ -315,16 +259,15 @@
   },
   {
     "type": "STRING",
-    "value": "You are a minor",
-    "raw": "\"You are a minor\"",
+    "value": "Please try again.",
     "line": 10,
     "column": 10
   },
   {
     "type": "NEWLINE",
-    "value": "\n",
+    "value": "\\n",
     "line": 10,
-    "column": 27
+    "column": 29
   },
   {
     "type": "KEYWORD",
@@ -346,50 +289,2414 @@
   },
   {
     "type": "NEWLINE",
-    "value": "\n",
+    "value": "\\n",
     "line": 11,
     "column": 7
   },
   {
     "type": "NEWLINE",
-    "value": "\n",
+    "value": "\\n",
     "line": 12,
     "column": 1
   },
   {
-    "type": "IDENTIFIER",
-    "value": "x",
+    "type": "COMMENT",
+    "value": "// Nested if-else-if",
     "line": 13,
+    "column": 1
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 13,
+    "column": 21
+  },
+  {
+    "type": "KEYWORD",
+    "value": "if",
+    "line": 14,
     "column": 1
   },
   {
     "type": "WHITESPACE",
     "value": " ",
-    "line": 13,
-    "column": 2
+    "line": 14,
+    "column": 3
   },
   {
-    "type": "LEXICAL_ERROR",
-    "value": "@",
-    "line": 13,
-    "column": 3
+    "type": "IDENTIFIER",
+    "value": "grade",
+    "line": 14,
+    "column": 4
   },
   {
     "type": "WHITESPACE",
     "value": " ",
-    "line": 13,
-    "column": 4
+    "line": 14,
+    "column": 9
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 14,
+    "column": 10
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 14,
+    "column": 11
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 14,
+    "column": 12
+  },
+  {
+    "type": "STRING",
+    "value": "A",
+    "line": 14,
+    "column": 13
+  },
+  {
+    "type": "COLON",
+    "value": ":",
+    "line": 14,
+    "column": 16
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 14,
+    "column": 17
+  },
+  {
+    "type": "WHITESPACE",
+    "value": "    ",
+    "line": 15,
+    "column": 1
+  },
+  {
+    "type": "KEYWORD",
+    "value": "show",
+    "line": 15,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 15,
+    "column": 9
+  },
+  {
+    "type": "STRING",
+    "value": "Excellent!",
+    "line": 15,
+    "column": 10
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 15,
+    "column": 22
   },
   {
     "type": "IDENTIFIER",
-    "value": "y",
-    "line": 13,
+    "value": "else",
+    "line": 16,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 16,
+    "column": 5
+  },
+  {
+    "type": "KEYWORD",
+    "value": "if",
+    "line": 16,
+    "column": 6
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 16,
+    "column": 8
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "grade",
+    "line": 16,
+    "column": 9
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 16,
+    "column": 14
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 16,
+    "column": 15
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 16,
+    "column": 16
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 16,
+    "column": 17
+  },
+  {
+    "type": "STRING",
+    "value": "B",
+    "line": 16,
+    "column": 18
+  },
+  {
+    "type": "COLON",
+    "value": ":",
+    "line": 16,
+    "column": 21
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 16,
+    "column": 22
+  },
+  {
+    "type": "WHITESPACE",
+    "value": "    ",
+    "line": 17,
+    "column": 1
+  },
+  {
+    "type": "KEYWORD",
+    "value": "show",
+    "line": 17,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 17,
+    "column": 9
+  },
+  {
+    "type": "STRING",
+    "value": "Good job!",
+    "line": 17,
+    "column": 10
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 17,
+    "column": 21
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "else",
+    "line": 18,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 18,
+    "column": 5
+  },
+  {
+    "type": "KEYWORD",
+    "value": "if",
+    "line": 18,
+    "column": 6
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 18,
+    "column": 8
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "grade",
+    "line": 18,
+    "column": 9
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 18,
+    "column": 14
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 18,
+    "column": 15
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 18,
+    "column": 16
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 18,
+    "column": 17
+  },
+  {
+    "type": "STRING",
+    "value": "C",
+    "line": 18,
+    "column": 18
+  },
+  {
+    "type": "COLON",
+    "value": ":",
+    "line": 18,
+    "column": 21
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 18,
+    "column": 22
+  },
+  {
+    "type": "WHITESPACE",
+    "value": "    ",
+    "line": 19,
+    "column": 1
+  },
+  {
+    "type": "KEYWORD",
+    "value": "show",
+    "line": 19,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 19,
+    "column": 9
+  },
+  {
+    "type": "STRING",
+    "value": "Well done.",
+    "line": 19,
+    "column": 10
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 19,
+    "column": 22
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "else",
+    "line": 20,
+    "column": 1
+  },
+  {
+    "type": "COLON",
+    "value": ":",
+    "line": 20,
     "column": 5
   },
   {
     "type": "NEWLINE",
-    "value": "\n",
-    "line": 13,
+    "value": "\\n",
+    "line": 20,
     "column": 6
+  },
+  {
+    "type": "WHITESPACE",
+    "value": "    ",
+    "line": 21,
+    "column": 1
+  },
+  {
+    "type": "KEYWORD",
+    "value": "show",
+    "line": 21,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 21,
+    "column": 9
+  },
+  {
+    "type": "STRING",
+    "value": "Needs improvement.",
+    "line": 21,
+    "column": 10
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 21,
+    "column": 30
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 22,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 22,
+    "column": 4
+  },
+  {
+    "type": "KEYWORD",
+    "value": "if",
+    "line": 22,
+    "column": 5
+  },
+  {
+    "type": "LEXICAL_ERROR",
+    "value": ";",
+    "line": 22,
+    "column": 7
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 22,
+    "column": 8
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 23,
+    "column": 1
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 24,
+    "column": 1
+  },
+  {
+    "type": "COMMENT",
+    "value": "/*For KeyWords*/",
+    "line": 25,
+    "column": 1
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 25,
+    "column": 17
+  },
+  {
+    "type": "DATATYPE",
+    "value": "int",
+    "line": 26,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 26,
+    "column": 4
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "counter",
+    "line": 26,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 26,
+    "column": 12
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 26,
+    "column": 13
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 26,
+    "column": 14
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 26,
+    "column": 15
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 26,
+    "column": 16
+  },
+  {
+    "type": "DATATYPE",
+    "value": "float",
+    "line": 27,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 27,
+    "column": 6
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "price",
+    "line": 27,
+    "column": 7
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 27,
+    "column": 12
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 27,
+    "column": 13
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 27,
+    "column": 14
+  },
+  {
+    "type": "NUMBER",
+    "value": "12.5",
+    "line": 27,
+    "column": 15
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 27,
+    "column": 19
+  },
+  {
+    "type": "DATATYPE",
+    "value": "char",
+    "line": 28,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 28,
+    "column": 5
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "letter",
+    "line": 28,
+    "column": 6
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 28,
+    "column": 12
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 28,
+    "column": 13
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 28,
+    "column": 14
+  },
+  {
+    "type": "STRING",
+    "value": "A",
+    "line": 28,
+    "column": 15
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 28,
+    "column": 18
+  },
+  {
+    "type": "DATATYPE",
+    "value": "string",
+    "line": 29,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 29,
+    "column": 7
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "name",
+    "line": 29,
+    "column": 8
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 29,
+    "column": 12
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 29,
+    "column": 13
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 29,
+    "column": 14
+  },
+  {
+    "type": "STRING",
+    "value": "SIMPLE",
+    "line": 29,
+    "column": 15
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 29,
+    "column": 23
+  },
+  {
+    "type": "DATATYPE",
+    "value": "text",
+    "line": 30,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 30,
+    "column": 5
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "message",
+    "line": 30,
+    "column": 6
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 30,
+    "column": 13
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 30,
+    "column": 14
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 30,
+    "column": 15
+  },
+  {
+    "type": "STRING",
+    "value": "HelloWorld123!",
+    "line": 30,
+    "column": 16
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 30,
+    "column": 32
+  },
+  {
+    "type": "DATATYPE",
+    "value": "secure",
+    "line": 31,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 31,
+    "column": 7
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "password",
+    "line": 31,
+    "column": 8
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 31,
+    "column": 16
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 31,
+    "column": 17
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 31,
+    "column": 18
+  },
+  {
+    "type": "STRING",
+    "value": "admin123",
+    "line": 31,
+    "column": 19
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 31,
+    "column": 29
+  },
+  {
+    "type": "DATATYPE",
+    "value": "bool",
+    "line": 32,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 32,
+    "column": 5
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "isActive",
+    "line": 32,
+    "column": 6
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 32,
+    "column": 14
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 32,
+    "column": 15
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 32,
+    "column": 16
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "true",
+    "line": 32,
+    "column": 17
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 32,
+    "column": 21
+  },
+  {
+    "type": "DATATYPE",
+    "value": "time",
+    "line": 33,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 33,
+    "column": 5
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "currentTime",
+    "line": 33,
+    "column": 6
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 33,
+    "column": 17
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 33,
+    "column": 18
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 33,
+    "column": 19
+  },
+  {
+    "type": "STRING",
+    "value": "12:00:00",
+    "line": 33,
+    "column": 20
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 33,
+    "column": 30
+  },
+  {
+    "type": "DATATYPE",
+    "value": "date",
+    "line": 34,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 34,
+    "column": 5
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "currentDate",
+    "line": 34,
+    "column": 6
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 34,
+    "column": 17
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 34,
+    "column": 18
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 34,
+    "column": 19
+  },
+  {
+    "type": "STRING",
+    "value": "2025-11-04",
+    "line": 34,
+    "column": 20
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 34,
+    "column": 32
+  },
+  {
+    "type": "DATATYPE",
+    "value": "timestamp",
+    "line": 35,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 35,
+    "column": 10
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "logTime",
+    "line": 35,
+    "column": 11
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 35,
+    "column": 18
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 35,
+    "column": 19
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 35,
+    "column": 20
+  },
+  {
+    "type": "STRING",
+    "value": "2025-11-04 12:00:00",
+    "line": 35,
+    "column": 21
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 35,
+    "column": 42
+  },
+  {
+    "type": "DATATYPE",
+    "value": "array",
+    "line": 36,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 36,
+    "column": 6
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "numbers",
+    "line": 36,
+    "column": 7
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 36,
+    "column": 14
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 36,
+    "column": 15
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 36,
+    "column": 16
+  },
+  {
+    "type": "LBRACKET",
+    "value": "[",
+    "line": 36,
+    "column": 17
+  },
+  {
+    "type": "NUMBER",
+    "value": "1",
+    "line": 36,
+    "column": 18
+  },
+  {
+    "type": "COMMA",
+    "value": ",",
+    "line": 36,
+    "column": 19
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 36,
+    "column": 20
+  },
+  {
+    "type": "NUMBER",
+    "value": "2",
+    "line": 36,
+    "column": 21
+  },
+  {
+    "type": "COMMA",
+    "value": ",",
+    "line": 36,
+    "column": 22
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 36,
+    "column": 23
+  },
+  {
+    "type": "NUMBER",
+    "value": "3",
+    "line": 36,
+    "column": 24
+  },
+  {
+    "type": "COMMA",
+    "value": ",",
+    "line": 36,
+    "column": 25
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 36,
+    "column": 26
+  },
+  {
+    "type": "NUMBER",
+    "value": "4",
+    "line": 36,
+    "column": 27
+  },
+  {
+    "type": "COMMA",
+    "value": ",",
+    "line": 36,
+    "column": 28
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 36,
+    "column": 29
+  },
+  {
+    "type": "NUMBER",
+    "value": "5",
+    "line": 36,
+    "column": 30
+  },
+  {
+    "type": "RBRACKET",
+    "value": "]",
+    "line": 36,
+    "column": 31
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 36,
+    "column": 32
+  },
+  {
+    "type": "DATATYPE",
+    "value": "collection",
+    "line": 37,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 37,
+    "column": 11
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "words",
+    "line": 37,
+    "column": 12
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 37,
+    "column": 17
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 37,
+    "column": 18
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 37,
+    "column": 19
+  },
+  {
+    "type": "LBRACKET",
+    "value": "[",
+    "line": 37,
+    "column": 20
+  },
+  {
+    "type": "STRING",
+    "value": "apple",
+    "line": 37,
+    "column": 21
+  },
+  {
+    "type": "COMMA",
+    "value": ",",
+    "line": 37,
+    "column": 28
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 37,
+    "column": 29
+  },
+  {
+    "type": "STRING",
+    "value": "banana",
+    "line": 37,
+    "column": 30
+  },
+  {
+    "type": "COMMA",
+    "value": ",",
+    "line": 37,
+    "column": 38
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 37,
+    "column": 39
+  },
+  {
+    "type": "STRING",
+    "value": "cherry",
+    "line": 37,
+    "column": 40
+  },
+  {
+    "type": "RBRACKET",
+    "value": "]",
+    "line": 37,
+    "column": 48
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 37,
+    "column": 49
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 38,
+    "column": 1
+  },
+  {
+    "type": "KEYWORD",
+    "value": "global",
+    "line": 39,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 39,
+    "column": 7
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "totalCount",
+    "line": 39,
+    "column": 8
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 39,
+    "column": 18
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 39,
+    "column": 19
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 39,
+    "column": 20
+  },
+  {
+    "type": "NUMBER",
+    "value": "100",
+    "line": 39,
+    "column": 21
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 39,
+    "column": 24
+  },
+  {
+    "type": "KEYWORD",
+    "value": "local",
+    "line": 40,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 40,
+    "column": 6
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "tempValue",
+    "line": 40,
+    "column": 7
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 40,
+    "column": 16
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 40,
+    "column": 17
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 40,
+    "column": 18
+  },
+  {
+    "type": "NUMBER",
+    "value": "10",
+    "line": 40,
+    "column": 19
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 40,
+    "column": 21
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 41,
+    "column": 1
+  },
+  {
+    "type": "KEYWORD",
+    "value": "let",
+    "line": 42,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 42,
+    "column": 4
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "variableA",
+    "line": 42,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 42,
+    "column": 14
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 42,
+    "column": 15
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 42,
+    "column": 16
+  },
+  {
+    "type": "NUMBER",
+    "value": "5",
+    "line": 42,
+    "column": 17
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 42,
+    "column": 18
+  },
+  {
+    "type": "KEYWORD",
+    "value": "store",
+    "line": 43,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 43,
+    "column": 6
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "constantB",
+    "line": 43,
+    "column": 7
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 43,
+    "column": 16
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 43,
+    "column": 17
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 43,
+    "column": 18
+  },
+  {
+    "type": "NUMBER",
+    "value": "10",
+    "line": 43,
+    "column": 19
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 43,
+    "column": 21
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 44,
+    "column": 1
+  },
+  {
+    "type": "KEYWORD",
+    "value": "get",
+    "line": 45,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 45,
+    "column": 4
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "userInput",
+    "line": 45,
+    "column": 5
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 45,
+    "column": 14
+  },
+  {
+    "type": "KEYWORD",
+    "value": "show",
+    "line": 46,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 46,
+    "column": 5
+  },
+  {
+    "type": "STRING",
+    "value": "You entered: ",
+    "line": 46,
+    "column": 6
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 46,
+    "column": 21
+  },
+  {
+    "type": "ARITH_OP",
+    "value": "+",
+    "line": 46,
+    "column": 22
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 46,
+    "column": 23
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "userInput",
+    "line": 46,
+    "column": 24
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 46,
+    "column": 33
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 47,
+    "column": 1
+  },
+  {
+    "type": "KEYWORD",
+    "value": "if",
+    "line": 48,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 48,
+    "column": 3
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "isActive",
+    "line": 48,
+    "column": 4
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 48,
+    "column": 12
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 48,
+    "column": 13
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 48,
+    "column": 14
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 48,
+    "column": 15
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "true",
+    "line": 48,
+    "column": 16
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 48,
+    "column": 20
+  },
+  {
+    "type": "WHITESPACE",
+    "value": "    ",
+    "line": 49,
+    "column": 1
+  },
+  {
+    "type": "KEYWORD",
+    "value": "show",
+    "line": 49,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 49,
+    "column": 9
+  },
+  {
+    "type": "STRING",
+    "value": "System is active.",
+    "line": 49,
+    "column": 10
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 49,
+    "column": 29
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "else",
+    "line": 50,
+    "column": 1
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 50,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": "    ",
+    "line": 51,
+    "column": 1
+  },
+  {
+    "type": "KEYWORD",
+    "value": "show",
+    "line": 51,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 51,
+    "column": 9
+  },
+  {
+    "type": "STRING",
+    "value": "System is inactive.",
+    "line": 51,
+    "column": 10
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 51,
+    "column": 31
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 52,
+    "column": 1
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 52,
+    "column": 4
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 53,
+    "column": 1
+  },
+  {
+    "type": "KEYWORD",
+    "value": "do",
+    "line": 54,
+    "column": 1
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 54,
+    "column": 3
+  },
+  {
+    "type": "WHITESPACE",
+    "value": "    ",
+    "line": 55,
+    "column": 1
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "counter",
+    "line": 55,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 55,
+    "column": 12
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "+=",
+    "line": 55,
+    "column": 13
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 55,
+    "column": 15
+  },
+  {
+    "type": "NUMBER",
+    "value": "1",
+    "line": 55,
+    "column": 16
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 55,
+    "column": 17
+  },
+  {
+    "type": "WHITESPACE",
+    "value": "    ",
+    "line": 56,
+    "column": 1
+  },
+  {
+    "type": "KEYWORD",
+    "value": "if",
+    "line": 56,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 56,
+    "column": 7
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "counter",
+    "line": 56,
+    "column": 8
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 56,
+    "column": 15
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 56,
+    "column": 16
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 56,
+    "column": 17
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 56,
+    "column": 18
+  },
+  {
+    "type": "NUMBER",
+    "value": "3",
+    "line": 56,
+    "column": 19
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 56,
+    "column": 20
+  },
+  {
+    "type": "WHITESPACE",
+    "value": "        ",
+    "line": 57,
+    "column": 1
+  },
+  {
+    "type": "KEYWORD",
+    "value": "next",
+    "line": 57,
+    "column": 9
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 57,
+    "column": 13
+  },
+  {
+    "type": "WHITESPACE",
+    "value": "    ",
+    "line": 58,
+    "column": 1
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 58,
+    "column": 5
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 58,
+    "column": 8
+  },
+  {
+    "type": "WHITESPACE",
+    "value": "    ",
+    "line": 59,
+    "column": 1
+  },
+  {
+    "type": "KEYWORD",
+    "value": "show",
+    "line": 59,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 59,
+    "column": 9
+  },
+  {
+    "type": "STRING",
+    "value": "Counter: ",
+    "line": 59,
+    "column": 10
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 59,
+    "column": 21
+  },
+  {
+    "type": "ARITH_OP",
+    "value": "+",
+    "line": 59,
+    "column": 22
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 59,
+    "column": 23
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "counter",
+    "line": 59,
+    "column": 24
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 59,
+    "column": 31
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 60,
+    "column": 1
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 60,
+    "column": 4
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 61,
+    "column": 1
+  },
+  {
+    "type": "NOISE",
+    "value": "to",
+    "line": 62,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 62,
+    "column": 3
+  },
+  {
+    "type": "KEYWORD",
+    "value": "do",
+    "line": 62,
+    "column": 4
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 62,
+    "column": 6
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "computeTotal",
+    "line": 62,
+    "column": 7
+  },
+  {
+    "type": "LPAREN",
+    "value": "(",
+    "line": 62,
+    "column": 19
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "a",
+    "line": 62,
+    "column": 20
+  },
+  {
+    "type": "COMMA",
+    "value": ",",
+    "line": 62,
+    "column": 21
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 62,
+    "column": 22
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "b",
+    "line": 62,
+    "column": 23
+  },
+  {
+    "type": "RPAREN",
+    "value": ")",
+    "line": 62,
+    "column": 24
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 62,
+    "column": 25
+  },
+  {
+    "type": "WHITESPACE",
+    "value": "    ",
+    "line": 63,
+    "column": 1
+  },
+  {
+    "type": "KEYWORD",
+    "value": "return",
+    "line": 63,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 63,
+    "column": 11
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "a",
+    "line": 63,
+    "column": 12
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 63,
+    "column": 13
+  },
+  {
+    "type": "ARITH_OP",
+    "value": "+",
+    "line": 63,
+    "column": 14
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 63,
+    "column": 15
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "b",
+    "line": 63,
+    "column": 16
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 63,
+    "column": 17
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 64,
+    "column": 1
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 64,
+    "column": 4
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 65,
+    "column": 1
+  },
+  {
+    "type": "KEYWORD",
+    "value": "try",
+    "line": 66,
+    "column": 1
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 66,
+    "column": 4
+  },
+  {
+    "type": "WHITESPACE",
+    "value": "    ",
+    "line": 67,
+    "column": 1
+  },
+  {
+    "type": "KEYWORD",
+    "value": "show",
+    "line": 67,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 67,
+    "column": 9
+  },
+  {
+    "type": "STRING",
+    "value": "Attempting risky operation...",
+    "line": 67,
+    "column": 10
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 67,
+    "column": 41
+  },
+  {
+    "type": "WHITESPACE",
+    "value": "    ",
+    "line": 68,
+    "column": 1
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "result",
+    "line": 68,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 68,
+    "column": 11
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 68,
+    "column": 12
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 68,
+    "column": 13
+  },
+  {
+    "type": "NUMBER",
+    "value": "10",
+    "line": 68,
+    "column": 14
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 68,
+    "column": 16
+  },
+  {
+    "type": "ARITH_OP",
+    "value": "/",
+    "line": 68,
+    "column": 17
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 68,
+    "column": 18
+  },
+  {
+    "type": "NUMBER",
+    "value": "0",
+    "line": 68,
+    "column": 19
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 68,
+    "column": 20
+  },
+  {
+    "type": "KEYWORD",
+    "value": "handle",
+    "line": 69,
+    "column": 1
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 69,
+    "column": 7
+  },
+  {
+    "type": "WHITESPACE",
+    "value": "    ",
+    "line": 70,
+    "column": 1
+  },
+  {
+    "type": "KEYWORD",
+    "value": "show",
+    "line": 70,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 70,
+    "column": 9
+  },
+  {
+    "type": "STRING",
+    "value": "Error handled successfully.",
+    "line": 70,
+    "column": 10
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 70,
+    "column": 39
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 71,
+    "column": 1
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 71,
+    "column": 4
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 72,
+    "column": 1
+  },
+  {
+    "type": "KEYWORD",
+    "value": "show",
+    "line": 73,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 73,
+    "column": 5
+  },
+  {
+    "type": "STRING",
+    "value": "Program finished.",
+    "line": 73,
+    "column": 6
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 73,
+    "column": 25
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 74,
+    "column": 1
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 75,
+    "column": 1
+  },
+  {
+    "type": "DATATYPE",
+    "value": "int",
+    "line": 76,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 76,
+    "column": 4
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "a",
+    "line": 76,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 76,
+    "column": 6
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 76,
+    "column": 7
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 76,
+    "column": 8
+  },
+  {
+    "type": "NUMBER",
+    "value": "10",
+    "line": 76,
+    "column": 9
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 76,
+    "column": 11
+  },
+  {
+    "type": "DATATYPE",
+    "value": "float",
+    "line": 77,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 77,
+    "column": 6
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "b",
+    "line": 77,
+    "column": 7
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 77,
+    "column": 8
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 77,
+    "column": 9
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 77,
+    "column": 10
+  },
+  {
+    "type": "NUMBER",
+    "value": "20.5",
+    "line": 77,
+    "column": 11
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 77,
+    "column": 15
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 78,
+    "column": 1
+  },
+  {
+    "type": "NOISE",
+    "value": "to",
+    "line": 79,
+    "column": 1
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 79,
+    "column": 3
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "add",
+    "line": 79,
+    "column": 4
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 79,
+    "column": 7
+  },
+  {
+    "type": "NOISE",
+    "value": "please",
+    "line": 79,
+    "column": 8
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 79,
+    "column": 14
+  },
+  {
+    "type": "KEYWORD",
+    "value": "do",
+    "line": 79,
+    "column": 15
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 79,
+    "column": 17
+  },
+  {
+    "type": "WHITESPACE",
+    "value": "    ",
+    "line": 80,
+    "column": 1
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "c",
+    "line": 80,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 80,
+    "column": 6
+  },
+  {
+    "type": "ASSIGN_OP",
+    "value": "=",
+    "line": 80,
+    "column": 7
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 80,
+    "column": 8
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "a",
+    "line": 80,
+    "column": 9
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 80,
+    "column": 10
+  },
+  {
+    "type": "ARITH_OP",
+    "value": "+",
+    "line": 80,
+    "column": 11
+  },
+  {
+    "type": "WHITESPACE",
+    "value": " ",
+    "line": 80,
+    "column": 12
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "b",
+    "line": 80,
+    "column": 13
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 80,
+    "column": 14
+  },
+  {
+    "type": "NOISE",
+    "value": "then",
+    "line": 81,
+    "column": 1
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 81,
+    "column": 5
+  },
+  {
+    "type": "WHITESPACE",
+    "value": "    ",
+    "line": 82,
+    "column": 1
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "print",
+    "line": 82,
+    "column": 5
+  },
+  {
+    "type": "LPAREN",
+    "value": "(",
+    "line": 82,
+    "column": 10
+  },
+  {
+    "type": "IDENTIFIER",
+    "value": "c",
+    "line": 82,
+    "column": 11
+  },
+  {
+    "type": "RPAREN",
+    "value": ")",
+    "line": 82,
+    "column": 12
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 82,
+    "column": 13
+  },
+  {
+    "type": "KEYWORD",
+    "value": "end",
+    "line": 83,
+    "column": 1
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 83,
+    "column": 4
+  },
+  {
+    "type": "NEWLINE",
+    "value": "\\n",
+    "line": 84,
+    "column": 1
   }
 ]

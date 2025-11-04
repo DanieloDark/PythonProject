@@ -1,13 +1,84 @@
-let name : string
-let age : int
-
-name = "Danielo" //this is a comment
-age = 21
-
-if age > 18:
-    show "You are an adult"
-else:
-    show "You are a minor"
+// Simple if
+if temperature > 30:
+    show "It's a hot day."
 end if
 
-x @ y
+// If-else
+if score >= 50:
+    show "You passed!"
+else:
+    show "Please try again."
+end if
+
+// Nested if-else-if
+if grade == "A":
+    show "Excellent!"
+else if grade == "B":
+    show "Good job!"
+else if grade == "C":
+    show "Well done."
+else:
+    show "Needs improvement."
+end if;
+
+
+/*For KeyWords*/
+int counter = 0
+float price = 12.5
+char letter = "A"
+string name = "SIMPLE"
+text message = "HelloWorld123!"
+secure password = "admin123"
+bool isActive = true
+time currentTime = "12:00:00"
+date currentDate = "2025-11-04"
+timestamp logTime = "2025-11-04 12:00:00"
+array numbers = [1, 2, 3, 4, 5]
+collection words = ["apple", "banana", "cherry"]
+
+global totalCount = 100
+local tempValue = 10
+
+let variableA = 5
+store constantB = 10
+
+get userInput
+show "You entered: " + userInput
+
+if isActive == true
+    show "System is active."
+else
+    show "System is inactive."
+end
+
+do
+    counter += 1
+    if counter == 3
+        next
+    end
+    show "Counter: " + counter
+end
+
+to do computeTotal(a, b)
+    return a + b
+end
+
+try
+    show "Attempting risky operation..."
+    result = 10 / 0
+handle
+    show "Error handled successfully."
+end
+
+show "Program finished."
+
+
+int a = 10
+float b = 20.5
+
+to add please do
+    c = a + b
+then
+    print(c)
+end
+
