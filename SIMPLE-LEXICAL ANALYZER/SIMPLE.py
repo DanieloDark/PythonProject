@@ -25,6 +25,7 @@ NOISE = {"to", "then", "please"}
 
 
 #TOKEN REGULAR EXPRESSIONS
+#Each pattern = Defines token patterns, FA for one token (FA Construction)
 TOKEN_SPECIFICATION = [
     ("MULTI_COMMENT", r"/\*[\s\S]*?\*/"),
     ("SINGLE_COMMENT", r"//[^\n]*"),
@@ -46,6 +47,7 @@ TOKEN_SPECIFICATION = [
     ("MISMATCH", r"."),
 ]
 
+# Builds the combined regex machine, combines all small FAs into one big FA (FA simulation)
 master_re = re.compile("|".join(f"(?P<{name}>{pattern})" for name, pattern in TOKEN_SPECIFICATION))
 
 
@@ -58,7 +60,10 @@ def tokenize(code: str, error_log_path: pathlib.Path):
 
     error_log_path.write_text("", encoding="utf-8")
 
+    # Scans and matches tokens, the FA processes input symbols and accepts/rejects strings
     for mo in master_re.finditer(code):
+
+    # Regex found a match, FA reached accepting state
         kind = mo.lastgroup
         value = mo.group()
         column = mo.start() - line_start + 1
@@ -96,7 +101,7 @@ def tokenize(code: str, error_log_path: pathlib.Path):
         elif kind in ("FLOAT", "INT"):
             tokens.append({"type": "NUMBER", "value": value, "line": line_num, "column": column})
             continue
-        elif kind == "MISMATCH":
+        elif kind == "MISMATCH": #Detects non-accepted tokens, if non-final states → lexical error (FA rejected input)
             error_msg = f"Invalid token '{value}' at line {line_num}, column {column}"
             errors.append(error_msg)
             tokens.append({"type": "LEXICAL_ERROR", "value": value, "line": line_num, "column": column})
