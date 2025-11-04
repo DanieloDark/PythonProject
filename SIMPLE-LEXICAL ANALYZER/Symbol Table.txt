@@ -225,30 +225,65 @@
    82 |    11 | IDENTIFIER      | c
    82 |    12 | RPAREN          | )
    83 |     1 | KEYWORD         | end
+   86 |     1 | RESERVED        | object
+   86 |     8 | RESERVED        | main
+   87 |     5 | RESERVED        | system
+   87 |    12 | ASSIGN_OP       | =
+   87 |    14 | STRING          | SIMPLE Lexical Analyzer
+   88 |     5 | RESERVED        | for
+   88 |     9 | IDENTIFIER      | i
+   88 |    11 | ASSIGN_OP       | =
+   88 |    13 | NUMBER          | 0
+   88 |    15 | NOISE           | to
+   88 |    18 | NUMBER          | 5
+   89 |     9 | KEYWORD         | show
+   89 |    14 | STRING          | Iteration number: 
+   89 |    35 | ARITH_OP        | +
+   89 |    37 | IDENTIFIER      | i
+   90 |     5 | KEYWORD         | end
+   92 |     5 | KEYWORD         | let
+   92 |     9 | IDENTIFIER      | value
+   92 |    15 | ASSIGN_OP       | =
+   92 |    17 | RESERVED        | null
+   93 |     5 | KEYWORD         | if
+   93 |     8 | IDENTIFIER      | value
+   93 |    14 | ASSIGN_OP       | =
+   93 |    15 | ASSIGN_OP       | =
+   93 |    17 | RESERVED        | null
+   93 |    22 | NOISE           | then
+   94 |     9 | RESERVED        | error
+   94 |    15 | ASSIGN_OP       | =
+   94 |    17 | STRING          | Null value detected
+   95 |     9 | KEYWORD         | show
+   95 |    14 | RESERVED        | error
+   96 |     5 | KEYWORD         | end
+   98 |     5 | IDENTIFIER      | exit
+   99 |     1 | KEYWORD         | end
 
 --- Token Summary ---
 COMMENT     : 4
-NEWLINE     : 84
-KEYWORD     : 45
-WHITESPACE  : 144
-IDENTIFIER  : 48
+NEWLINE     : 100
+KEYWORD     : 52
+WHITESPACE  : 175
+IDENTIFIER  : 53
 REL_OP      : 2
-NUMBER      : 19
+NUMBER      : 21
 COLON       : 7
-STRING      : 27
-ASSIGN_OP   : 31
+STRING      : 30
+ASSIGN_OP   : 37
 LEXICAL_ERROR: 1
 DATATYPE    : 14
 LBRACKET    : 2
 COMMA       : 7
 RBRACKET    : 2
-ARITH_OP    : 5
-NOISE       : 4
+ARITH_OP    : 6
+NOISE       : 6
 LPAREN      : 2
 RPAREN      : 2
+RESERVED    : 8
 
-Total tokens (including whitespace/newlines): 450
-Total tokens (excluding whitespace/newlines): 222
+Total tokens (including whitespace/newlines): 531
+Total tokens (excluding whitespace/newlines): 256
 
 Errors (1):
   - Invalid token ';' at line 22, column 7

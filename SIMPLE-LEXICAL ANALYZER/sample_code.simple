@@ -82,3 +82,19 @@ then
     print(c)
 end
 
+
+object main
+    system = "SIMPLE Lexical Analyzer"
+    for i = 0 to 5
+        show "Iteration number: " + i
+    end
+
+    let value = null
+    if value == null then
+        error = "Null value detected"
+        show error
+    end
+
+    exit
+end
+
