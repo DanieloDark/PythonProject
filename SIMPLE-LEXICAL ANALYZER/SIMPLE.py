@@ -67,7 +67,9 @@ def tokenize(code: str, error_log_path: pathlib.Path):
         kind = mo.lastgroup
         value = mo.group()
         column = mo.start() - line_start + 1
+    #(it reads one state at a time)
 
+    # Once a token is accepted (the FA reaches a final state), this code records it
         if kind == "NEWLINE":
             tokens.append({"type": "NEWLINE", "value": "\\n", "line": line_num, "column": column})
             line_num += 1
